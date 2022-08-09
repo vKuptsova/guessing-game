@@ -14,13 +14,11 @@ class GuessingGame {
     lower() { 
       this.max = this.num;
       this.num = Math.ceil((this.max + this.min) / 2);
-      return (this.num+" max "+this.max+" min " +this.min);
     }
 
     greater() { 
       this.min = this.num;
       this.num = Math.ceil((this.max + this.min) / 2);
-      return (this.num+" max "+this.max+" min " +this.min);
     }
 }
 
